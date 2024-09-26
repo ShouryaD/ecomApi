@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    box-shadow: 0px 0px 10px 5px lightgray;
+    margin-bottom: 15px;
+}
+.navbar a{
+    color:white !important;
+}
+body{
+    background-color: rgb(24, 24, 24) !important;
+    color: white !important;
+}
+.signup{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1487611459768-bd414656ea10?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVjb21tZXJjZSUyMGJ1c2luZXNzfGVufDB8fDB8fHww);
+    background-size: cover;
+}
+.signup form{
+    background-color: rgb(0, 0, 0,0.4);
+    padding: 40px;
+    width: 40vw;
+    border-radius: 10px;
+}
